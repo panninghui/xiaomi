@@ -1,0 +1,8 @@
+*{
+	margin: 0;     /* body-8px（清除默认样式） */
+	text-decoration: none;
+	font-style: normal;     
+	padding: 0;
+	list-style: none;
+}
+
