@@ -218,6 +218,7 @@
 	float: left;
 	position: relative;
 	overflow: hidden;
+
 }
 .zhineng_item img{
 	width: 150px;
@@ -940,4 +941,48 @@
 .video_tu:hover img{
 	cursor: pointer;
 }
-
+.sousuo input{
+	width: 242px;
+	height: 42px;
+	float: left;
+	outline:none;
+	border: 0;
+}
+.sousuo_anniu{
+	width: 51px;
+	height: 48px;
+	float: left;
+	border-left: 1px solid #e0e0e0;
+}
+.sousuo_anniu span{
+	line-height: 48px;
+	padding-left: 18px;
+	font-size: 19px;
+	font-family: iconfont;
+	color: #616161;
+}
+.sousuo_anniu:hover{
+	background-color: #ff6700;
+	cursor: pointer;
+}
+.sousuo_anniu span:hover{
+	color: #fff;
+}
+.zhineng_item:hover{
+	box-shadow:  0 /*X*/2px /*Y*/ 5px /*模糊度*/ 3px /*大小*/ #dcdcdc /*颜色*/;
+}
+.pinglun:hover{
+	box-shadow:  0 /*X*/2px /*Y*/ 5px /*模糊度*/ 3px /*大小*/ #dcdcdc /*颜色*/;
+}
+.reping_1:hover{
+	box-shadow:  0 /*X*/2px /*Y*/ 5px /*模糊度*/ 3px /*大小*/ #dcdcdc /*颜色*/;
+	transform:translate(0, -3px)
+}
+.neirongzuo:hover{
+	box-shadow:  0 /*X*/2px /*Y*/ 5px /*模糊度*/ 3px /*大小*/ #dcdcdc /*颜色*/;
+	transform:translate(0, -3px)
+}
+.video_btn:hover{
+	box-shadow:  0 /*X*/2px /*Y*/ 5px /*模糊度*/ 3px /*大小*/ #dcdcdc /*颜色*/;
+	transform:translate(0, -3px)
+}
